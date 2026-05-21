@@ -1,7 +1,7 @@
 # Omarchy core package list installed via install/packaging/base.sh
 # This file is also used by the ISO builder when determining needs
 
-aether
+# aether                  # AUR x86
 alacritty
 alsa-utils
 avahi
@@ -13,8 +13,8 @@ brightnessctl
 btop
 chromium
 clang
-claude-code
-cliamp
+# claude-code             # npm package, install via npm
+# cliamp                  # AUR x86
 cups
 cups-browsed
 cups-filters
@@ -23,7 +23,7 @@ docker
 docker-buildx
 docker-compose
 dosfstools
-dotnet-runtime-9.0
+# dotnet-runtime-9.0      # not available on ARM
 dust
 evince
 exfatprogs
@@ -50,7 +50,7 @@ gvfs-smb
 hypridle
 hyprland
 hyprland-guiutils
-hyprland-preview-share-picker
+# hyprland-preview-share-picker  # custom, no ARM build
 hyprlock
 hyprpicker
 hyprsunset
@@ -85,8 +85,8 @@ noto-fonts-cjk
 noto-fonts-emoji
 nss-mdns
 nvim
-omarchy-nvim
-omarchy-walker
+# omarchy-nvim            # custom, no ARM build
+# omarchy-walker          # custom, no ARM build
 pamixer
 playerctl
 plocate
