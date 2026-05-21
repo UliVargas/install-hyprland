@@ -1,12 +1,9 @@
 # Omarchy core package list installed via install/packaging/base.sh
 # This file is also used by the ISO builder when determining needs
 
-# 1password-beta              # x86-only (no ARM binary)
-# 1password-cli               # x86-only (no ARM binary)
 aether
 alacritty
 alsa-utils
-asdcontrol
 avahi
 bash-completion
 bat
@@ -58,7 +55,6 @@ hyprlock
 hyprpicker
 hyprsunset
 imagemagick
-impala
 imv
 inetutils
 inxi
@@ -75,7 +71,6 @@ libyaml
 libqalculate
 libreoffice-fresh
 llvm
-localsend
 luarocks
 mako
 man-db
@@ -90,12 +85,9 @@ noto-fonts-cjk
 noto-fonts-emoji
 nss-mdns
 nvim
-obs-studio
-obsidian
 omarchy-nvim
 omarchy-walker
 pamixer
-pinta
 playerctl
 plocate
 plymouth
@@ -104,7 +96,6 @@ postgresql-libs
 power-profiles-daemon
 python-gobject
 python-poetry-core
-python-terminaltexteffects
 qt5-wayland
 ripgrep
 ruby
@@ -113,7 +104,6 @@ satty
 sddm
 signal-desktop
 slurp
-spotify                  # x86-only (no official ARM build)
 socat
 starship
 sushi
@@ -125,28 +115,19 @@ tesseract-data-eng
 tldr
 tree-sitter-cli
 tmux
-tobi-try
-ttf-ia-writer
 ttf-jetbrains-mono-nerd
-typora                   # x86-only (closed source)
-tzupdate
 ufw
-ufw-docker
 unzip
 usage
 uwsm
 waybar
 whois
 wireless-regdb
-wiremix
 wireplumber
 wl-clipboard
 woff2-font-awesome
 xdg-desktop-portal-gtk
 xdg-desktop-portal-hyprland
-# xdg-terminal-exec      # outdated in repos, use xdg-terminal-exec-git from AUR
 xmlstarlet
 xournalpp
-# yaru-icon-theme        # available in AUR, installed manually in install.sh
-# yay                    # yay is the installer itself, skip if already present
 zoxide
