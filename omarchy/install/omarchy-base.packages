@@ -1,13 +1,12 @@
-# Omarchy core package list - ARM FILTERED VERSION
-# Original x86-only and AUR packages removed
-# Packages marked with # ARM: REMOVED are not available on Arch Linux ARM repos
+# Omarchy core package list installed via install/packaging/base.sh
+# This file is also used by the ISO builder when determining needs
 
-# 1password-beta              # ARM: REMOVED - AUR x86
-# 1password-cli               # ARM: REMOVED - AUR
+# 1password-beta              # x86-only (no ARM binary)
+# 1password-cli               # x86-only (no ARM binary)
 aether
 alacritty
 alsa-utils
-# asdcontrol                  # ARM: REMOVED - AUR
+asdcontrol
 avahi
 bash-completion
 bat
@@ -17,7 +16,7 @@ brightnessctl
 btop
 chromium
 clang
-# claude-code                 # ARM: REMOVED - npm package, install via npm
+claude-code
 cliamp
 cups
 cups-browsed
@@ -27,7 +26,7 @@ docker
 docker-buildx
 docker-compose
 dosfstools
-# dotnet-runtime-9.0          # ARM: REMOVED - may not be available, install manually if needed
+dotnet-runtime-9.0
 dust
 evince
 exfatprogs
@@ -53,20 +52,20 @@ gvfs-nfs
 gvfs-smb
 hypridle
 hyprland
-# hyprland-guiutils           # ARM: REMOVED - AUR
-# hyprland-preview-share-picker # ARM: REMOVED - AUR
+hyprland-guiutils
+hyprland-preview-share-picker
 hyprlock
 hyprpicker
 hyprsunset
 imagemagick
-# impala                      # ARM: REMOVED - AUR
+impala
 imv
 inetutils
 inxi
 iwd
 jq
 kdenlive
-# kernel-modules-hook         # ARM: REMOVED - AUR
+kernel-modules-hook
 kvantum-qt5
 lazydocker
 lazygit
@@ -93,8 +92,8 @@ nss-mdns
 nvim
 obs-studio
 obsidian
-# omarchy-nvim                # ARM: REMOVED - AUR
-# omarchy-walker              # ARM: REMOVED - AUR
+omarchy-nvim
+omarchy-walker
 pamixer
 pinta
 playerctl
@@ -114,7 +113,7 @@ satty
 sddm
 signal-desktop
 slurp
-# spotify                     # ARM: REMOVED - AUR x86, no official ARM build
+spotify                  # x86-only (no official ARM build)
 socat
 starship
 sushi
@@ -126,10 +125,10 @@ tesseract-data-eng
 tldr
 tree-sitter-cli
 tmux
-# tobi-try                    # ARM: REMOVED - AUR
+tobi-try
 ttf-ia-writer
 ttf-jetbrains-mono-nerd
-# typora                      # ARM: REMOVED - AUR x86
+typora                   # x86-only (closed source)
 tzupdate
 ufw
 ufw-docker
@@ -139,7 +138,7 @@ uwsm
 waybar
 whois
 wireless-regdb
-# wiremix                     # ARM: REMOVED - AUR
+wiremix
 wireplumber
 wl-clipboard
 woff2-font-awesome

@@ -1,11 +1,11 @@
 # Packages installed outside of install/packages.sh or optional packages
-# ARM FILTERED VERSION - x86-only packages removed
+# Utilized by ISO builder to ensure package availability in the ISO
 
 autoconf-archive
-# asusctl                     # ARM: REMOVED - AUR x86
+asusctl
 base
 base-devel
-# broadcom-wl                 # ARM: REMOVED - AUR
+broadcom-wl
 btrfs-progs
 dkms
 egl-wayland
@@ -14,60 +14,60 @@ gst-plugin-pipewire
 gtk4-layer-shell
 jdk-openjdk
 libpulse
-# intel-ipu7-camera           # ARM: REMOVED - Intel x86
-# intel-lpmd                  # ARM: REMOVED - Intel x86
-# intel-media-driver          # ARM: REMOVED - Intel x86
-# libva-intel-driver          # ARM: REMOVED - Intel x86
-# libva-nvidia-driver         # ARM: REMOVED - NVIDIA x86
-# limine                      # ARM: REMOVED - x86 bootloader
-# limine-mkinitcpio-hook      # ARM: REMOVED - x86
-# limine-snapper-sync         # ARM: REMOVED - x86
+intel-ipu7-camera
+intel-lpmd
+intel-media-driver
+libva-intel-driver
+libva-nvidia-driver
+limine                      # x86-only bootloader
+limine-mkinitcpio-hook      # x86-only
+limine-snapper-sync         # x86-only
 linux
 linux-firmware
 linux-headers
-# linux-ptl                   # ARM: REMOVED - Intel x86
-# linux-ptl-headers           # ARM: REMOVED - Intel x86
-# macbook12-spi-driver-dkms   # ARM: REMOVED - Apple x86
-# nvidia-580xx-dkms           # ARM: REMOVED - NVIDIA x86
-# nvidia-dkms                 # ARM: REMOVED - NVIDIA x86
-# nvidia-open-dkms            # ARM: REMOVED - NVIDIA x86
-# nvidia-580xx-utils          # ARM: REMOVED - NVIDIA x86
-# nvidia-utils                # ARM: REMOVED - NVIDIA x86
-# lib32-nvidia-580xx-utils    # ARM: REMOVED - NVIDIA x86
-# lib32-nvidia-utils          # ARM: REMOVED - NVIDIA x86
+linux-ptl                   # Intel x86
+linux-ptl-headers           # Intel x86
+macbook12-spi-driver-dkms   # Apple x86
+nvidia-580xx-dkms           # NVIDIA x86
+nvidia-dkms                 # NVIDIA x86
+nvidia-open-dkms            # NVIDIA x86
+nvidia-580xx-utils          # NVIDIA x86
+nvidia-utils                # NVIDIA x86
+lib32-nvidia-580xx-utils    # NVIDIA x86
+lib32-nvidia-utils          # NVIDIA x86
 pipewire
 pipewire-alsa
 pipewire-jack
 pipewire-pulse
 qt6-wayland
-# snapper                     # ARM: REMOVED - tied to limine-snapper
+snapper
 sof-firmware
-# thermald                    # ARM: REMOVED - Intel x86
+thermald                    # Intel x86
 webp-pixbuf-loader
-# yay-debug                   # ARM: REMOVED - AUR
-# tuxedo-drivers-nocompatcheck-dkms # ARM: REMOVED - x86
-# yt6801-dkms                 # ARM: REMOVED - x86
+yay-debug
+tuxedo-drivers-nocompatcheck-dkms  # x86
+yt6801-dkms                 # x86
 zram-generator
 
-# Intel encoding processing - ARM: REMOVED
-# libvpl
-# vpl-gpu-rt
+# Intel encoding processing
+libvpl
+vpl-gpu-rt
 
-# Vulkan drivers - ARM: REMOVED (use ARM-specific drivers)
-# vulkan-intel
-# vulkan-radeon
-# vulkan-asahi
+# Vulkan drivers (auto-detected by hardware)
+vulkan-intel
+vulkan-radeon
+vulkan-asahi
 
-# Surface laptop support - ARM: REMOVED
-# linux-firmware-marvell
+# Surface laptop support packages
+linux-firmware-marvell
 
-# Dell laptop support - ARM: REMOVED
-# dell-xps-touchpad-haptics
+# Dell laptop support packages
+dell-xps-touchpad-haptics
 
-# T2 MacBook support - ARM: REMOVED
-# apple-bcm-firmware
-# apple-t2-audio-config
-# linux-t2
-# linux-t2-headers
-# t2fanrd
-# tiny-dfr
+# T2 MacBook support packages
+apple-bcm-firmware
+apple-t2-audio-config
+linux-t2
+linux-t2-headers
+t2fanrd
+tiny-dfr
