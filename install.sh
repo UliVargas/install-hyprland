@@ -37,6 +37,7 @@ if [[ -d "$OMARCHY_DST" ]]; then
   cp -f "$OMARCHY_SRC/install/login/all.sh" "$OMARCHY_DST/install/login/"
   cp -f "$OMARCHY_SRC/install/packaging/all.sh" "$OMARCHY_DST/install/packaging/"
   cp -f "$OMARCHY_SRC/install/config/all.sh" "$OMARCHY_DST/install/config/"
+  cp -f "$OMARCHY_SRC/install/config/config.sh" "$OMARCHY_DST/install/config/"
   cp -f "$OMARCHY_SRC/install/post-install/pacman.sh" "$OMARCHY_DST/install/post-install/"
   cp -f "$OMARCHY_SRC/install/omarchy-base.packages" "$OMARCHY_DST/install/"
   cp -f "$OMARCHY_SRC/install/omarchy-other.packages" "$OMARCHY_DST/install/"
