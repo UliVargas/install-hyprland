@@ -5,7 +5,8 @@ run_logged $OMARCHY_INSTALL/packaging/fonts.sh
 run_logged $OMARCHY_INSTALL/packaging/icons.sh
 run_logged $OMARCHY_INSTALL/packaging/webapps.sh
 run_logged $OMARCHY_INSTALL/packaging/tuis.sh
-run_logged $OMARCHY_INSTALL/packaging/npx.sh
+# ARM: npx.sh doesn't exist in omarchy repo
+# run_logged $OMARCHY_INSTALL/packaging/npx.sh
 # ARM: Skip x86-only hardware packages
 # run_logged $OMARCHY_INSTALL/packaging/asus-rog.sh
 # run_logged $OMARCHY_INSTALL/packaging/framework16.sh
