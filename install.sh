@@ -69,6 +69,37 @@ source "$OMARCHY_INSTALL/post-install/all.sh"
 ok "Omarchy base install complete"
 
 # ============================================================
+# STAGE 1.5: Manual AUR packages (not in pacman or outdated)
+# ============================================================
+phase "Stage 1.5: Installing manual AUR packages"
+
+# yay — can't install itself, check if present
+if ! command -v yay &>/dev/null; then
+  log "Installing yay from AUR..."
+  TMPDIR=$(mktemp -d)
+  git clone https://aur.archlinux.org/yay.git "$TMPDIR/yay"
+  cd "$TMPDIR/yay" && makepkg -si --noconfirm
+  cd - && rm -rf "$TMPDIR"
+  ok "yay installed"
+else
+  ok "yay already installed"
+fi
+
+# xdg-terminal-exec-git (regular package is outdated)
+if ! pacman -Q xdg-terminal-exec-git &>/dev/null; then
+  yay -S --noconfirm xdg-terminal-exec-git 2>/dev/null && ok "xdg-terminal-exec-git installed" || warn "xdg-terminal-exec-git failed"
+else
+  ok "xdg-terminal-exec-git already installed"
+fi
+
+# yaru-icon-theme (AUR only)
+if ! pacman -Q yaru-icon-theme &>/dev/null; then
+  yay -S --noconfirm yaru-icon-theme 2>/dev/null && ok "yaru-icon-theme installed" || warn "yaru-icon-theme failed"
+else
+  ok "yaru-icon-theme already installed"
+fi
+
+# ============================================================
 # STAGE 2: Prerequisites
 # ============================================================
 phase "Stage 2: Installing Prerequisites"

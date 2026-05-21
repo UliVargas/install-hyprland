@@ -144,9 +144,9 @@ wl-clipboard
 woff2-font-awesome
 xdg-desktop-portal-gtk
 xdg-desktop-portal-hyprland
-xdg-terminal-exec
+# xdg-terminal-exec      # outdated in repos, use xdg-terminal-exec-git from AUR
 xmlstarlet
 xournalpp
-yaru-icon-theme
-yay
+# yaru-icon-theme        # available in AUR, installed manually in install.sh
+# yay                    # yay is the installer itself, skip if already present
 zoxide
