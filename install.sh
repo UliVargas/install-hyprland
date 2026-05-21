@@ -59,6 +59,13 @@ ok "Omarchy installed"
 # ============================================================
 phase "Stage 1: Omarchy Base Install"
 
+# Resolve gnome-themes conflict before base install
+if pacman -Q gnome-themes-standard &>/dev/null; then
+  warn "gnome-themes-standard detected — removing for gnome-themes-extra"
+  sudo pacman -R --noconfirm gnome-themes-standard 2>/dev/null || true
+  ok "gnome-themes-standard removed"
+fi
+
 source "$OMARCHY_INSTALL/helpers/all.sh"
 source "$OMARCHY_INSTALL/preflight/all.sh"
 source "$OMARCHY_INSTALL/packaging/all.sh"
