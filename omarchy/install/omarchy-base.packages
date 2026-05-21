@@ -1,0 +1,153 @@
+# Omarchy core package list - ARM FILTERED VERSION
+# Original x86-only and AUR packages removed
+# Packages marked with # ARM: REMOVED are not available on Arch Linux ARM repos
+
+# 1password-beta              # ARM: REMOVED - AUR x86
+# 1password-cli               # ARM: REMOVED - AUR
+aether
+alacritty
+alsa-utils
+# asdcontrol                  # ARM: REMOVED - AUR
+avahi
+bash-completion
+bat
+bluetui
+bolt
+brightnessctl
+btop
+chromium
+clang
+# claude-code                 # ARM: REMOVED - npm package, install via npm
+cliamp
+cups
+cups-browsed
+cups-filters
+cups-pdf
+docker
+docker-buildx
+docker-compose
+dosfstools
+# dotnet-runtime-9.0          # ARM: REMOVED - may not be available, install manually if needed
+dust
+evince
+exfatprogs
+expac
+eza
+fastfetch
+fcitx5
+fcitx5-gtk
+fcitx5-qt
+fd
+ffmpegthumbnailer
+fontconfig
+fzf
+github-cli
+gnome-calculator
+gnome-keyring
+gnome-themes-extra
+grim
+gpu-screen-recorder
+gum
+gvfs-mtp
+gvfs-nfs
+gvfs-smb
+hypridle
+hyprland
+# hyprland-guiutils           # ARM: REMOVED - AUR
+# hyprland-preview-share-picker # ARM: REMOVED - AUR
+hyprlock
+hyprpicker
+hyprsunset
+imagemagick
+# impala                      # ARM: REMOVED - AUR
+imv
+inetutils
+inxi
+iwd
+jq
+kdenlive
+# kernel-modules-hook         # ARM: REMOVED - AUR
+kvantum-qt5
+lazydocker
+lazygit
+less
+libsecret
+libyaml
+libqalculate
+libreoffice-fresh
+llvm
+localsend
+luarocks
+mako
+man-db
+mariadb-libs
+mise
+mpv
+nautilus
+nautilus-python
+gnome-disk-utility
+noto-fonts
+noto-fonts-cjk
+noto-fonts-emoji
+nss-mdns
+nvim
+obs-studio
+obsidian
+# omarchy-nvim                # ARM: REMOVED - AUR
+# omarchy-walker              # ARM: REMOVED - AUR
+pamixer
+pinta
+playerctl
+plocate
+plymouth
+polkit-gnome
+postgresql-libs
+power-profiles-daemon
+python-gobject
+python-poetry-core
+python-terminaltexteffects
+qt5-wayland
+ripgrep
+ruby
+rust
+satty
+sddm
+signal-desktop
+slurp
+# spotify                     # ARM: REMOVED - AUR x86, no official ARM build
+socat
+starship
+sushi
+swaybg
+swayosd
+system-config-printer
+tesseract
+tesseract-data-eng
+tldr
+tree-sitter-cli
+tmux
+# tobi-try                    # ARM: REMOVED - AUR
+ttf-ia-writer
+ttf-jetbrains-mono-nerd
+# typora                      # ARM: REMOVED - AUR x86
+tzupdate
+ufw
+ufw-docker
+unzip
+usage
+uwsm
+waybar
+whois
+wireless-regdb
+# wiremix                     # ARM: REMOVED - AUR
+wireplumber
+wl-clipboard
+woff2-font-awesome
+xdg-desktop-portal-gtk
+xdg-desktop-portal-hyprland
+xdg-terminal-exec
+xmlstarlet
+xournalpp
+yaru-icon-theme
+yay
+zoxide

@@ -1,0 +1,73 @@
+# Packages installed outside of install/packages.sh or optional packages
+# ARM FILTERED VERSION - x86-only packages removed
+
+autoconf-archive
+# asusctl                     # ARM: REMOVED - AUR x86
+base
+base-devel
+# broadcom-wl                 # ARM: REMOVED - AUR
+btrfs-progs
+dkms
+egl-wayland
+git
+gst-plugin-pipewire
+gtk4-layer-shell
+jdk-openjdk
+libpulse
+# intel-ipu7-camera           # ARM: REMOVED - Intel x86
+# intel-lpmd                  # ARM: REMOVED - Intel x86
+# intel-media-driver          # ARM: REMOVED - Intel x86
+# libva-intel-driver          # ARM: REMOVED - Intel x86
+# libva-nvidia-driver         # ARM: REMOVED - NVIDIA x86
+# limine                      # ARM: REMOVED - x86 bootloader
+# limine-mkinitcpio-hook      # ARM: REMOVED - x86
+# limine-snapper-sync         # ARM: REMOVED - x86
+linux
+linux-firmware
+linux-headers
+# linux-ptl                   # ARM: REMOVED - Intel x86
+# linux-ptl-headers           # ARM: REMOVED - Intel x86
+# macbook12-spi-driver-dkms   # ARM: REMOVED - Apple x86
+# nvidia-580xx-dkms           # ARM: REMOVED - NVIDIA x86
+# nvidia-dkms                 # ARM: REMOVED - NVIDIA x86
+# nvidia-open-dkms            # ARM: REMOVED - NVIDIA x86
+# nvidia-580xx-utils          # ARM: REMOVED - NVIDIA x86
+# nvidia-utils                # ARM: REMOVED - NVIDIA x86
+# lib32-nvidia-580xx-utils    # ARM: REMOVED - NVIDIA x86
+# lib32-nvidia-utils          # ARM: REMOVED - NVIDIA x86
+pipewire
+pipewire-alsa
+pipewire-jack
+pipewire-pulse
+qt6-wayland
+# snapper                     # ARM: REMOVED - tied to limine-snapper
+sof-firmware
+# thermald                    # ARM: REMOVED - Intel x86
+webp-pixbuf-loader
+# yay-debug                   # ARM: REMOVED - AUR
+# tuxedo-drivers-nocompatcheck-dkms # ARM: REMOVED - x86
+# yt6801-dkms                 # ARM: REMOVED - x86
+zram-generator
+
+# Intel encoding processing - ARM: REMOVED
+# libvpl
+# vpl-gpu-rt
+
+# Vulkan drivers - ARM: REMOVED (use ARM-specific drivers)
+# vulkan-intel
+# vulkan-radeon
+# vulkan-asahi
+
+# Surface laptop support - ARM: REMOVED
+# linux-firmware-marvell
+
+# Dell laptop support - ARM: REMOVED
+# dell-xps-touchpad-haptics
+
+# T2 MacBook support - ARM: REMOVED
+# apple-bcm-firmware
+# apple-t2-audio-config
+# linux-t2
+# linux-t2-headers
+# t2fanrd
+# tiny-dfr
