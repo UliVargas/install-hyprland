@@ -267,9 +267,12 @@ if [[ -d "$BACKUP_DIR" ]]; then
 fi
 
 # ============================================================
-# STAGE 7: First-Run
+# STAGE 7: First-Run Tasks
 # ============================================================
 phase "Stage 7: First-Run Tasks"
+
+# Fix Hyprland ARM: create missing shaders directory
+sudo mkdir -p /usr/share/hypr/shaders
 
 sudo ln -sf /run/systemd/resolve/stub-resolv.conf /etc/resolv.conf 2>/dev/null || true
 gsettings set org.gnome.desktop.interface gtk-theme "Adwaita-dark" 2>/dev/null || true
